@@ -1,0 +1,13 @@
+/* Custom Bootstrap hover scale effect */
+.hover-scale:hover {
+    transform: scale(1.1);
+    transition: transform 0.2s ease-in-out;
+  }
+  .hidden {
+    display: none;
+  }
+  .sticky{
+    position:sticky;
+    top:0;
+    z-index: 1;
+  }

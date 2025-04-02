@@ -1,0 +1,51 @@
+
+.about-container {
+    padding: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .about-container:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Hover shadow effect */
+  }
+  
+  /* About Title */
+  .about-title {
+    text-align: center;
+    color: #4CAF50;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    transition: color 0.3s ease;
+  }
+  
+  .about-title:hover {
+    color: #45a049; /* Slight color change on hover */
+  }
+  
+  /* About Text */
+  .about-text {
+    color: #333;
+    font-size: 18px;
+    line-height: 1.8;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  /* Apply smooth hover effect on text */
+  .about-text:hover {
+    transform: translateY(5px); /* Slight upward movement on hover */
+  }
+  
+  
+  
+  
+  
