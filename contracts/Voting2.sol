@@ -26,8 +26,9 @@ contract Voting2 {
 
     constructor() {
         owner = msg.sender;
-        votingStartTime = block.timestamp;
-        votingEndingTime = block.timestamp + (60 * 60);
+        votingStartTime = block.timestamp +(60*60);  
+        votingEndingTime = votingStartTime + (60 * 60); // lasts 1 hour
+
         addPerson(
             "RAMESH",
             "Ramesh@2004",
